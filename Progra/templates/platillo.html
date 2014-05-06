@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+     <meta name="description" content="Agregar Platillo" />
+    <meta charset="utf8">
+   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+     <title>Formularioplatillo</title>
+    
+    <style type="text/css">
+
+		body,html{
+			height: 100%;
+			width: 100%;
+            min-height: 100%;
+			background-color: rgba(239, 167, 30, 0.6);
+		} 
+
+		h1{
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 3em;
+			color: #e3e3e3;
+            text-align: center;
+            text-decoration:overline;
+            
+		}
+	
+            #cuadroverde{
+			border-radius: 0cm;
+			background-color: #4dd667;
+			text-align: center;
+
+		}
+            
+        #estilo1 { 
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 20px; 
+            color: #000866; 
+        } 
+        
+
+		</style>
+
+ 
+   </head>
+   <body>
+       <div id="estilo1">
+        	<div id="cuadroverde">
+     <header><h1>Agregar Platillo</h1></header>
+  <div>
+     <from action="inicio.html"method="POST"> 
+ 
+   
+ <table width="50%" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+      
+
+          
+          <label for="txtnombre">Ingrese el nombre del platillo</label><br/>
+             <input type="text" size="30" maxlength="255" id="txtnombre" name="Ingrese la ubicacion del restaurante"/><br/>
+         
+        <label for="txtorigen">Ingrese el pais de origen del platillo</label><br/>
+             <input type="text" size="30" maxlength="255" id="txtorigen" name="Ingrese su platillo"/><br/>
+      
+          <label for="txtingrediente">Ingrese los ingredientes del platillo</label><br/>
+          <input type="textarea" size="70" maxlength="300" id="txtingrediente" name="Ingrese los ingredientes del platillo"/><br/>
+     
+    
+     <label for="txttipo">Ingrese el tipo de platillo</label><br/>
+          <input type="textarea" size="70" maxlength="300" id="txttipo" name="Ingrese el tipo de platillo"/><br/>
+       
+         
+ 
+     
+             
+              <div align="right">
+              <align="right"><input type="button"name="Cancelar"value="Cancelar"/>
+               <align="right"><input type="button"name="Agregar"value="Agregar"/>
+               </div>
+
+
+
+      </div>
+    </body>
+ </html>
